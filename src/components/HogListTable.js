@@ -25,7 +25,7 @@ export default function HogListTable({porkData}){
                   <option value='greased'>Greasy Hogs Only!</option>
                 </select>
             </label>
-            <figure>
+            <figure >
                 {HogCardBuilder}
             </figure>
         </div>
