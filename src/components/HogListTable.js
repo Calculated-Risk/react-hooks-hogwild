@@ -10,7 +10,8 @@ export default function HogListTable({porkData}){
             specialty={pork.specialty}
             greased={pork.greased}
             weight={pork.weight}
-            image={pork.image}            
+            image={pork.image}
+            medal={pork["highest medal achieved"]}            
             />
         )
     })
